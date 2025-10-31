@@ -1,6 +1,7 @@
 Javascript code flow works by executing from top to bottom.
 const creates a variable that cannot be reassigned. .split splits all letters. It will search the api by every letter.
 promise.all waits for fetch requests to complete.
+javascript does not wait for fetch requests.
 letters.map will transform each array and then fetch all recepies from each letter.
 .then response, if no meals are returned you will get no response.
 .flat merges into a singular array
@@ -16,6 +17,7 @@ then const category amounts array and add counting.
 add + 1 to make the count correct. count otherwise starts at 0.
 then console log the message with the categoryamount
 catch error if code fails it will print error message.
+
 
 
 
